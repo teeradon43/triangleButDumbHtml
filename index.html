@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Triangle Program</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <h1>Enter the length of sides</h1>
+        <div style="display: flex; justify-content: space-between; width: 50%">
+          <label for="side1">Side 1</label>
+          <input type="number" id="side1" onchange="validateInput()" />
+        </div>
+        <div style="display: flex; justify-content: space-between; width: 50%">
+          <label for="side2">Side 2</label>
+          <input type="number" id="side2" onchange="validateInput()" />
+        </div>
+        <div style="display: flex; justify-content: space-between; width: 50%">
+          <label for="side3">Side 3</label>
+          <input type="number" id="side3" onchange="validateInput()" />
+        </div>
+        <button type="button" onclick="render()" id="enterBtn" disabled>
+          Enter
+        </button>
+        <div style="display: flex; justify-content: space-between; width: 50%">
+          <p>Result</p>
+          <p id="result"></p>
+        </div>
+      </form>
+    </div>
+    <script src="script.js" />
+  </body>
+</html>

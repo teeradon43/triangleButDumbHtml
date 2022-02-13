@@ -1,0 +1,23 @@
+.container {
+  height: 100vh;
+}
+.container .form {
+  display: flex;
+  flex-direction: column;
+  max-width: 50vw;
+  height: 60%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4e4e4;
+  border-radius: 5%;
+}
+.form input {
+  margin-bottom: 1em;
+}
+#result {
+  border: black solid 1px;
+  min-width: 10.5em;
+  text-align: center;
+  background-color: white;
+}
