@@ -36,7 +36,7 @@ function render() {
   var side1 = document.getElementById("side1").value;
   var side2 = document.getElementById("side2").value;
   var side3 = document.getElementById("side3").value;
-  if (validateInput(side1, side2, side3)) {
+  if (validateInput()) {
     // enable เมื่อ isValid มีค่าเป็น true
     const result = classification(side1, side2, side3);
     document.getElementById("result").innerHTML = result;
